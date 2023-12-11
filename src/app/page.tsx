@@ -1,9 +1,14 @@
-import Image from 'next/image'
 
-export default function Home() {
+import Image from 'next/image'
+import dashboard from '@/components/dashboard'
+
+
+export default function Home({}) {
+
   return ( 
     <main>
-    <p>Main Page</p>
+      <dashboard />
     </main>
    )
 }
+
